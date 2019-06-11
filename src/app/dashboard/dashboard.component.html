@@ -1,0 +1,17 @@
+<h2>Dashboard</h2>
+<ol>
+  <li *ngFor="let t of todos">
+    {{t.description}}
+  </li>
+</ol>
+
+<div>
+	  <a routerLink="/login" routerLinkActive = "active">Log Out</a>
+</div>
+  <!--
+<div>
+<a *ngFor="let chore of chores"
+  routerLink="/detail/{{chore.id}}">
+ <div>{{chore.name}}</div>
+  </a>
+</div> -->

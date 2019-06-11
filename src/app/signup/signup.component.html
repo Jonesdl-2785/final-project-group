@@ -1,0 +1,13 @@
+<div>
+	<h2>Sign Up</h2>
+	<input type="email" placeholder="email" [(ngModel)]="user.email"/>
+	<input type="password" placeholder="password" [(ngModel)]="user.password" />
+	<button (click)="signup()">Submit</button>
+
+
+	<div>
+	  <a routerLink="/login" routerLinkActive = "active">Login</a>
+	</div>
+
+
+</div>
